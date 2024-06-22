@@ -1,0 +1,584 @@
+.castillo{
+    width: 380px;
+    height: 300px;
+    border: 3px solid rgb(0, 0, 0);
+    
+}
+
+.amazonas-anime{
+
+     width: 560px;
+     height: 315px;
+    
+   
+}
+.menu{
+    display: flex;
+    justify-content:flex-end;
+    text-align: flex-end;
+   }
+    
+
+h5{
+    color: $color-parrafo
+    }
+
+.titulo{
+    color: $color-subtitulos;
+    
+}
+.titulo2{
+    color: rgb(220, 254, 0);
+}
+
+.principal{
+    width: 60px;
+}
+.facebook{
+    width: 30px;
+}
+
+.whatsapp{
+    width: 30px;
+}
+
+.instagram{
+    width: 30px;
+}
+
+.linkedin{
+    width: 30px;
+}
+
+.iconos{
+    display: flex;
+    margin-top: 10px;
+    padding: 5px;
+    justify-content: center;
+}
+
+.amazonas{
+    width: 380px;
+    height: 300px;
+    border: 3px solid rgb(0, 0, 0);
+}
+.guajira{
+    width: 380px;
+    height: 300px;
+    border: 3px solid rgb(0, 0, 0);
+}
+
+.pianguita{
+    width: 260px;
+    height: 180px;
+    border: 3px solid rgb(0, 0, 0);   
+}
+
+.calima{
+    width: 260px;
+    height: 180px;
+    border: 3px solid rgb(0, 0, 0); 
+
+}
+.nevado{
+
+    width: 260px;
+    height: 180px;
+    border: 3px solid rgb(0, 0, 0); 
+
+}
+
+.yanaconas
+{
+    height: 200px;
+    width: 460px;
+    border: 3px solid rgb(0, 0, 0);
+    
+}
+
+.parqueCafe{
+    height: 200px;
+    width: 430px;
+    border: 3px solid rgb(0, 0, 0);
+}
+
+.tardesCalenas{
+    height: 200px;
+    width: 430px;
+    border: 3px solid rgb(0, 0, 0);
+  
+}
+
+.ukumari{
+    height: 200px;
+    width: 460px;
+    border: 3px solid rgb(0, 0, 0);
+}
+
+.sanCipriano{
+    
+    height: 200px;
+    width: 430px;
+    border: 3px solid rgb(0, 0, 0);
+}
+
+.termales{
+    height: 200px;
+    width: 430px;
+    border: 3px solid rgb(0, 0, 0);
+}
+@media (max-width: map-get($breakPoinst,xs)){
+
+    .contenedor{
+        height:300%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.8fr 3fr 2fr 2fr 2fr 2fr 2fr 2fr 2fr 0.8fr;
+        grid-gap: 3px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    
+        grid-template-areas: 'nav'
+                             'aside'
+                             'main'
+                             'contenido1'
+                             'contenido2'
+                             'contenido3'
+                             'contenido4'
+                             'contenido5'
+                             'contenido6'
+                             'footer';
+        }
+    
+
+    
+        .yanaconas
+    {
+        height: 200px;
+        width: 370px;
+        border: 3px solid rgb(0, 0, 0);
+        
+    }
+    
+    p{
+        font-size: 10px;
+    }
+    
+    .parqueCafe{
+        height: 200px;
+        width: 370px;
+        border: 3px solid rgb(0, 0, 0);
+    }
+    
+    .tardesCalenas{
+        height: 200px;
+        width: 370px;
+        border: 3px solid rgb(0, 0, 0);
+      
+    }
+    
+    .ukumari{
+        height: 200px;
+        width: 370px;
+        border: 3px solid rgb(0, 0, 0);
+    }
+    
+    .sanCipriano{
+        
+        height: 200px;
+        width: 370px;
+        border: 3px solid rgb(0, 0, 0);
+    }
+    
+    .termales{
+        height: 200px;
+        width: 370px;
+        border: 3px solid rgb(0, 0, 0);
+    }
+    
+  
+    
+    .pianguita{
+        height: 200px;
+        width: 370px;
+        border: 3px solid rgb(0, 0, 0);
+        
+    }
+    
+    .calima{
+        height: 200px;
+        width: 370px;
+        border: 3px solid rgb(0, 0, 0);
+       
+    }
+    .nevado{
+    
+        height: 200px;
+        width: 370px;
+        border: 3px solid rgb(0, 0, 0); 
+        
+    
+    }
+    
+    .castillo{
+        width: 370px;
+        height: 200px;
+        border: 3px solid rgb(0, 0, 0);
+    }
+    
+    .amazonas{
+        width: 370px;
+        height: 200px;
+        border: 3px solid rgb(0, 0, 0);
+    }
+    .guajira{
+        width: 370px;
+        height: 200px;
+        border: 3px solid rgb(0, 0, 0);
+    }
+
+    .pianguita-anime{
+
+        width: 370px;
+        height: 200px;
+        border: 3px solid rgb(0, 0, 0);
+
+    }
+
+    .parrafo{
+
+        font-size: 18px;
+        text-align: justify;
+        
+    }
+
+
+    
+   .menu{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+   }
+    
+        
+    }
+    
+
+    @media (min-width: map-get($breakPoinst,xs1)) and (max-width: map-get($breakPoinst,md)) {
+
+        .contenedor{
+        height:100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 0.8fr 3fr 2fr 2fr 2fr 2fr 2fr 2fr 2fr 0.8fr;
+        grid-gap: 3px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    
+        grid-template-areas: 'nav nav'
+                             'aside aside'
+                             'main main'
+                             'contenido1 contenido1'
+                             'contenido2 contenido2'
+                             'contenido3 contenido3'
+                             'contenido4 contenido4'
+                             'contenido5 contenido5'
+                             'contenido6 contenido6'
+                             'footer footer';
+                             
+        }
+    
+    
+    
+       aside {
+        font-size: px;
+       }
+    
+       .yanaconas
+        {
+            height: 200px;
+            width: 390px;
+            border: 3px solid rgb(0, 0, 0);
+            
+        }
+        
+        .parqueCafe{
+            height: 200px;
+            width: 390px;
+            border: 3px solid rgb(0, 0, 0);
+        }
+        
+        .tardesCalenas{
+            height: 200px;
+            width: 390px;
+            border: 3px solid rgb(0, 0, 0);
+          
+        }
+        
+        .ukumari{
+            height: 200px;
+            width: 390px;
+            border: 3px solid rgb(0, 0, 0);
+        }
+        
+        .sanCipriano{
+            
+            height: 200px;
+            width: 390px;
+            border: 3px solid rgb(0, 0, 0);
+        }
+        
+        .termales{
+            height: 200px;
+            width: 390px;
+            border: 3px solid rgb(0, 0, 0);
+        }
+    
+    
+      
+        
+        .pianguita{
+            height: 200px;
+            width: 390px;
+            border: 3px solid rgb(0, 0, 0);
+            
+        }
+        
+        .calima{
+            height: 200px;
+            width: 390px;
+            border: 3px solid rgb(0, 0, 0);
+            
+        
+        }
+        .nevado{
+        
+            height: 200px;
+            width: 390px;
+            border: 3px solid rgb(0, 0, 0); 
+            
+        
+        }
+        .castillo{
+            width: 390px;
+            height: 200px;
+            border: 3px solid rgb(0, 0, 0);
+        }
+        
+        .amazonas{
+            width: 390px;
+            height: 200px;
+            border: 3px solid rgb(0, 0, 0);
+        }
+        .guajira{
+            width: 390px;
+            height: 200px;
+            border: 3px solid rgb(0, 0, 0);
+        }
+        
+        .pianguita-anime{
+
+            width: 390px;
+            height: 200px;
+            border: 3px solid rgb(0, 0, 0);
+        }
+
+        .menu{
+            display: flex;
+            justify-content: center;
+            text-align: center;
+           }
+        
+    
+    }
+
+    @media (min-width: map-get($breakPoinst,md1)) and (max-width: map-get($breakPoinst,lg)) {
+
+        .contenedor{
+        height:100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 0.8fr 3fr 2fr 2fr 2fr 2fr 2fr 2fr 0.8fr;
+        grid-gap: 3px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    
+        grid-template-areas: 'nav nav nav'
+                             'aside main main'
+                             'aside contenido1 contenido1'
+                             'aside contenido2 contenido2'
+                             'aside contenido3 contenido3'
+                             'aside contenido4 contenido4'
+                             'aside contenido5 contenido5'
+                             'aside contenido6 contenido6'
+                             'aside footer footer';
+                             
+        }
+    
+        .yanaconas
+        {
+            height: 200px;
+            width: 500px;
+            border: 3px solid rgb(0, 0, 0);
+            
+        }
+        
+        .parqueCafe{
+            height: 200px;
+            width: 500px;
+            border: 3px solid rgb(0, 0, 0);
+        }
+        
+        .tardesCalenas{
+            height: 200px;
+            width: 500px;
+            border: 3px solid rgb(0, 0, 0);
+          
+        }
+        
+        .ukumari{
+            height: 200px;
+            width: 500px;
+            border: 3px solid rgb(0, 0, 0);
+        }
+        
+        .sanCipriano{
+            
+            height: 200px;
+            width: 500px;
+            border: 3px solid rgb(0, 0, 0);
+        }
+        
+        .termales{
+            height: 200px;
+            width: 500px;
+            border: 3px solid rgb(0, 0, 0);
+        }
+    
+        .castillo{
+            width: 500px;
+            height: 300px;
+            border: 3px solid rgb(0, 0, 0);
+        }
+        
+        .amazonas{
+            width: 500px;
+            height: 300px;
+            border: 3px solid rgb(0, 0, 0);
+        }
+        .guajira{
+            width: 500px;
+            height: 300px;
+            border: 3px solid rgb(0, 0, 0);
+        }
+      
+        
+      
+    }
+
+    @media (min-width: map-get($breakPoinst,lg)) and (max-width: map-get($breakPoinst,xl)) {
+
+        .contenedor{
+            height:100%;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 3fr 3fr 2fr 2fr 2fr 2fr 2fr 2fr 0.8fr;
+            grid-gap: 3px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        
+        
+            grid-template-areas: 'nav nav nav'
+                                 'aside aside aside'
+                                 'main main main'
+                                 'contenido1 contenido1 contenido1'
+                                 'contenido2 contenido2 contenido2'
+                                 'contenido3 contenido3 contenido3'
+                                 'contenido4 contenido4 contenido4'
+                                 'contenido5 contenido5 contenido5'
+                                 'contenido6 contenido6 contenido6'
+                                 'footer footer footer';
+    }
+    
+    .yanaconas
+    {
+        height: 500px;
+        width: 900px;
+        border: 3px solid rgb(0, 0, 0);
+        
+    }
+    
+    .parqueCafe{
+        height: 500px;
+        width: 900px;
+        border: 3px solid rgb(0, 0, 0);
+    }
+    
+    .tardesCalenas{
+        height: 500px;
+        width: 900px;
+        border: 3px solid rgb(0, 0, 0);
+      
+    }
+    
+    .ukumari{
+        height: 500px;
+        width: 900px;
+        border: 3px solid rgb(0, 0, 0);
+    }
+    
+    .sanCipriano{
+        
+        height: 500px;
+        width: 900px;
+        border: 3px solid rgb(0, 0, 0);
+    }
+    
+    .termales{
+        height: 500px;
+        width: 900px;
+        border: 3px solid rgb(0, 0, 0);
+    }
+    
+    .castillo{
+        width: 900px;
+        height: 500px;
+        border: 3px solid rgb(0, 0, 0);
+    }
+    
+    .amazonas{
+        width: 900px;
+        height: 500px;
+        border: 3px solid rgb(0, 0, 0);
+    }
+    .guajira{
+        width: 900px;
+        height: 500px;
+        border: 3px solid rgb(0, 0, 0);
+    }
+    
+    .pianguita{
+        height: 500px;
+        width: 900px;
+        border: 3px solid rgb(0, 0, 0);
+     
+    }
+    
+    .calima{
+        height: 500px;
+        width: 900px;
+        border: 3px solid rgb(0, 0, 0);
+        
+    
+    }
+    .nevado{
+    
+        height: 500px;
+        width: 900px;
+        border: 3px solid rgb(0, 0, 0); 
+        
+    
+    }
+ 
+    
+    
+    }

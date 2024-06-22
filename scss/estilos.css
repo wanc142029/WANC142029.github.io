@@ -1,0 +1,625 @@
+nav h1 {
+  text-align: center;
+  color: bisque;
+  font-size: 30px;
+}
+nav li {
+  display: inline-block;
+  color: #61f984;
+}
+nav a {
+  text-decoration: none;
+  color: #61f984;
+  font-size: 20px;
+  margin: 4px;
+}
+nav a:hover {
+  color: #e80097;
+}
+
+body {
+  background-image: url(https://img.freepik.com/fotos-premium/resumen-fondo-diseno-imagenes-fondos-pantalla-ai-generado_643360-83016.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+* {
+  padding: 0%;
+  margin: 0%;
+}
+
+.contenedor {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 0.8fr 3fr 2fr 2fr 2fr 0.8fr;
+  grid-gap: 3px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  grid-template-areas: "nav nav nav nav" "aside main main main" "aside contenido1 contenido2 contenido3" "aside contenido4 contenido5 contenido6" "aside footer footer footer";
+}
+
+.nav {
+  grid-area: nav;
+}
+
+.aside {
+  grid-area: aside;
+}
+
+.main {
+  grid-area: main;
+}
+
+.contenido1 {
+  display: flex;
+  grid-area: contenido1;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenido2 {
+  display: flex;
+  grid-area: contenido2;
+  justify-content: center;
+}
+
+.contenido3 {
+  display: flex;
+  grid-area: contenido3;
+  justify-content: center;
+}
+
+.contenido4 {
+  display: flex;
+  justify-content: center;
+  grid-area: contenido4;
+}
+
+.contenido5 {
+  display: flex;
+  justify-content: center;
+  grid-area: contenido5;
+}
+
+.contenido6 {
+  display: flex;
+  justify-content: center;
+  grid-area: contenido6;
+}
+
+.footer {
+  grid-area: footer;
+}
+
+.titulo {
+  justify-content: center;
+}
+
+.caja1 {
+  display: flex;
+  justify-content: center;
+}
+
+.caja2 {
+  display: flex;
+  justify-content: center;
+}
+
+.caja3 {
+  display: flex;
+  justify-content: center;
+}
+
+p {
+  color: rgb(255, 255, 255);
+  text-align: justify;
+}
+
+h2 {
+  color: #f9d861;
+}
+
+H6 {
+  color: rgb(255, 255, 255);
+}
+
+aside a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+footer h2 {
+  text-align: center;
+  margin-top: 10px;
+}
+footer H5 {
+  color: rgb(255, 255, 255);
+}
+
+.anime {
+  transition: width;
+  transition-duration: 500ms;
+  transition-timing-function: cubic-bezier();
+}
+
+.anime:hover {
+  border: 3px solid rgb(116, 221, 24);
+}
+
+.anime1 {
+  transition: width;
+  transition-duration: 500ms;
+  transition-timing-function: cubic-bezier();
+}
+
+.anime1:hover {
+  border: 3px solid rgb(116, 221, 24);
+}
+
+.icono {
+  transition: width;
+  transition-duration: 500ms;
+  transition-timing-function: cubic-bezier();
+}
+
+.icono:hover {
+  border: 3px solid rgb(221, 24, 24);
+}
+
+.texto {
+  transition: width;
+  transition-duration: 900ms;
+  transition-timing-function: cubic-bezier();
+}
+
+.texto:hover {
+  color: #f9d861;
+  font-size: 20px;
+}
+
+.principal {
+  width: 60px;
+  transition: width;
+  transition-duration: 500ms;
+  transition-timing-function: cubic-bezier();
+}
+
+.principal:hover {
+  width: 100px;
+}
+
+iframe {
+  transition: width;
+  transition-duration: 500ms;
+  transition-timing-function: cubic-bezier();
+}
+
+iframe:hover {
+  border: 3px solid rgb(221, 24, 24);
+}
+
+.castillo {
+  width: 380px;
+  height: 300px;
+  border: 3px solid rgb(0, 0, 0);
+}
+
+.amazonas-anime {
+  width: 560px;
+  height: 315px;
+}
+
+.menu {
+  display: flex;
+  justify-content: flex-end;
+  text-align: flex-end;
+}
+
+h5 {
+  color: rgb(255, 255, 255);
+}
+
+.titulo {
+  color: #f9d861;
+}
+
+.titulo2 {
+  color: rgb(220, 254, 0);
+}
+
+.principal {
+  width: 60px;
+}
+
+.facebook {
+  width: 30px;
+}
+
+.whatsapp {
+  width: 30px;
+}
+
+.instagram {
+  width: 30px;
+}
+
+.linkedin {
+  width: 30px;
+}
+
+.iconos {
+  display: flex;
+  margin-top: 10px;
+  padding: 5px;
+  justify-content: center;
+}
+
+.amazonas {
+  width: 380px;
+  height: 300px;
+  border: 3px solid rgb(0, 0, 0);
+}
+
+.guajira {
+  width: 380px;
+  height: 300px;
+  border: 3px solid rgb(0, 0, 0);
+}
+
+.pianguita {
+  width: 260px;
+  height: 180px;
+  border: 3px solid rgb(0, 0, 0);
+}
+
+.calima {
+  width: 260px;
+  height: 180px;
+  border: 3px solid rgb(0, 0, 0);
+}
+
+.nevado {
+  width: 260px;
+  height: 180px;
+  border: 3px solid rgb(0, 0, 0);
+}
+
+.yanaconas {
+  height: 200px;
+  width: 460px;
+  border: 3px solid rgb(0, 0, 0);
+}
+
+.parqueCafe {
+  height: 200px;
+  width: 430px;
+  border: 3px solid rgb(0, 0, 0);
+}
+
+.tardesCalenas {
+  height: 200px;
+  width: 430px;
+  border: 3px solid rgb(0, 0, 0);
+}
+
+.ukumari {
+  height: 200px;
+  width: 460px;
+  border: 3px solid rgb(0, 0, 0);
+}
+
+.sanCipriano {
+  height: 200px;
+  width: 430px;
+  border: 3px solid rgb(0, 0, 0);
+}
+
+.termales {
+  height: 200px;
+  width: 430px;
+  border: 3px solid rgb(0, 0, 0);
+}
+
+@media (max-width: 480px) {
+  .contenedor {
+    height: 300%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.8fr 3fr 2fr 2fr 2fr 2fr 2fr 2fr 2fr 0.8fr;
+    grid-gap: 3px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    grid-template-areas: "nav" "aside" "main" "contenido1" "contenido2" "contenido3" "contenido4" "contenido5" "contenido6" "footer";
+  }
+  .yanaconas {
+    height: 200px;
+    width: 370px;
+    border: 3px solid rgb(0, 0, 0);
+  }
+  p {
+    font-size: 10px;
+  }
+  .parqueCafe {
+    height: 200px;
+    width: 370px;
+    border: 3px solid rgb(0, 0, 0);
+  }
+  .tardesCalenas {
+    height: 200px;
+    width: 370px;
+    border: 3px solid rgb(0, 0, 0);
+  }
+  .ukumari {
+    height: 200px;
+    width: 370px;
+    border: 3px solid rgb(0, 0, 0);
+  }
+  .sanCipriano {
+    height: 200px;
+    width: 370px;
+    border: 3px solid rgb(0, 0, 0);
+  }
+  .termales {
+    height: 200px;
+    width: 370px;
+    border: 3px solid rgb(0, 0, 0);
+  }
+  .pianguita {
+    height: 200px;
+    width: 370px;
+    border: 3px solid rgb(0, 0, 0);
+  }
+  .calima {
+    height: 200px;
+    width: 370px;
+    border: 3px solid rgb(0, 0, 0);
+  }
+  .nevado {
+    height: 200px;
+    width: 370px;
+    border: 3px solid rgb(0, 0, 0);
+  }
+  .castillo {
+    width: 370px;
+    height: 200px;
+    border: 3px solid rgb(0, 0, 0);
+  }
+  .amazonas {
+    width: 370px;
+    height: 200px;
+    border: 3px solid rgb(0, 0, 0);
+  }
+  .guajira {
+    width: 370px;
+    height: 200px;
+    border: 3px solid rgb(0, 0, 0);
+  }
+  .pianguita-anime {
+    width: 370px;
+    height: 200px;
+    border: 3px solid rgb(0, 0, 0);
+  }
+  .parrafo {
+    font-size: 18px;
+    text-align: justify;
+  }
+  .menu {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+  .contenedor {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.8fr 3fr 2fr 2fr 2fr 2fr 2fr 2fr 2fr 0.8fr;
+    grid-gap: 3px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    grid-template-areas: "nav nav" "aside aside" "main main" "contenido1 contenido1" "contenido2 contenido2" "contenido3 contenido3" "contenido4 contenido4" "contenido5 contenido5" "contenido6 contenido6" "footer footer";
+  }
+  aside {
+    font-size: px;
+  }
+  .yanaconas {
+    height: 200px;
+    width: 390px;
+    border: 3px solid rgb(0, 0, 0);
+  }
+  .parqueCafe {
+    height: 200px;
+    width: 390px;
+    border: 3px solid rgb(0, 0, 0);
+  }
+  .tardesCalenas {
+    height: 200px;
+    width: 390px;
+    border: 3px solid rgb(0, 0, 0);
+  }
+  .ukumari {
+    height: 200px;
+    width: 390px;
+    border: 3px solid rgb(0, 0, 0);
+  }
+  .sanCipriano {
+    height: 200px;
+    width: 390px;
+    border: 3px solid rgb(0, 0, 0);
+  }
+  .termales {
+    height: 200px;
+    width: 390px;
+    border: 3px solid rgb(0, 0, 0);
+  }
+  .pianguita {
+    height: 200px;
+    width: 390px;
+    border: 3px solid rgb(0, 0, 0);
+  }
+  .calima {
+    height: 200px;
+    width: 390px;
+    border: 3px solid rgb(0, 0, 0);
+  }
+  .nevado {
+    height: 200px;
+    width: 390px;
+    border: 3px solid rgb(0, 0, 0);
+  }
+  .castillo {
+    width: 390px;
+    height: 200px;
+    border: 3px solid rgb(0, 0, 0);
+  }
+  .amazonas {
+    width: 390px;
+    height: 200px;
+    border: 3px solid rgb(0, 0, 0);
+  }
+  .guajira {
+    width: 390px;
+    height: 200px;
+    border: 3px solid rgb(0, 0, 0);
+  }
+  .pianguita-anime {
+    width: 390px;
+    height: 200px;
+    border: 3px solid rgb(0, 0, 0);
+  }
+  .menu {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+}
+@media (min-width: 769px) and (max-width: 1278px) {
+  .contenedor {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.8fr 3fr 2fr 2fr 2fr 2fr 2fr 2fr 0.8fr;
+    grid-gap: 3px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    grid-template-areas: "nav nav nav" "aside main main" "aside contenido1 contenido1" "aside contenido2 contenido2" "aside contenido3 contenido3" "aside contenido4 contenido4" "aside contenido5 contenido5" "aside contenido6 contenido6" "aside footer footer";
+  }
+  .yanaconas {
+    height: 200px;
+    width: 500px;
+    border: 3px solid rgb(0, 0, 0);
+  }
+  .parqueCafe {
+    height: 200px;
+    width: 500px;
+    border: 3px solid rgb(0, 0, 0);
+  }
+  .tardesCalenas {
+    height: 200px;
+    width: 500px;
+    border: 3px solid rgb(0, 0, 0);
+  }
+  .ukumari {
+    height: 200px;
+    width: 500px;
+    border: 3px solid rgb(0, 0, 0);
+  }
+  .sanCipriano {
+    height: 200px;
+    width: 500px;
+    border: 3px solid rgb(0, 0, 0);
+  }
+  .termales {
+    height: 200px;
+    width: 500px;
+    border: 3px solid rgb(0, 0, 0);
+  }
+  .castillo {
+    width: 500px;
+    height: 300px;
+    border: 3px solid rgb(0, 0, 0);
+  }
+  .amazonas {
+    width: 500px;
+    height: 300px;
+    border: 3px solid rgb(0, 0, 0);
+  }
+  .guajira {
+    width: 500px;
+    height: 300px;
+    border: 3px solid rgb(0, 0, 0);
+  }
+}
+@media (min-width: 1278px) and (max-width: 1496px) {
+  .contenedor {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 3fr 3fr 2fr 2fr 2fr 2fr 2fr 2fr 0.8fr;
+    grid-gap: 3px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    grid-template-areas: "nav nav nav" "aside aside aside" "main main main" "contenido1 contenido1 contenido1" "contenido2 contenido2 contenido2" "contenido3 contenido3 contenido3" "contenido4 contenido4 contenido4" "contenido5 contenido5 contenido5" "contenido6 contenido6 contenido6" "footer footer footer";
+  }
+  .yanaconas {
+    height: 500px;
+    width: 900px;
+    border: 3px solid rgb(0, 0, 0);
+  }
+  .parqueCafe {
+    height: 500px;
+    width: 900px;
+    border: 3px solid rgb(0, 0, 0);
+  }
+  .tardesCalenas {
+    height: 500px;
+    width: 900px;
+    border: 3px solid rgb(0, 0, 0);
+  }
+  .ukumari {
+    height: 500px;
+    width: 900px;
+    border: 3px solid rgb(0, 0, 0);
+  }
+  .sanCipriano {
+    height: 500px;
+    width: 900px;
+    border: 3px solid rgb(0, 0, 0);
+  }
+  .termales {
+    height: 500px;
+    width: 900px;
+    border: 3px solid rgb(0, 0, 0);
+  }
+  .castillo {
+    width: 900px;
+    height: 500px;
+    border: 3px solid rgb(0, 0, 0);
+  }
+  .amazonas {
+    width: 900px;
+    height: 500px;
+    border: 3px solid rgb(0, 0, 0);
+  }
+  .guajira {
+    width: 900px;
+    height: 500px;
+    border: 3px solid rgb(0, 0, 0);
+  }
+  .pianguita {
+    height: 500px;
+    width: 900px;
+    border: 3px solid rgb(0, 0, 0);
+  }
+  .calima {
+    height: 500px;
+    width: 900px;
+    border: 3px solid rgb(0, 0, 0);
+  }
+  .nevado {
+    height: 500px;
+    width: 900px;
+    border: 3px solid rgb(0, 0, 0);
+  }
+}
+
+/*# sourceMappingURL=estilos.css.map */

@@ -1,0 +1,92 @@
+
+
+.anime{
+
+
+    transition: width;
+    transition-duration: 500ms;
+    transition-timing-function: cubic-bezier();
+}
+.anime:hover{
+
+    border: 3px solid rgb(116, 221, 24);
+
+}
+
+.anime1{
+
+
+    transition: width;
+    transition-duration: 500ms;
+    transition-timing-function: cubic-bezier();
+}
+.anime1:hover{
+
+    border: 3px solid rgb(116, 221, 24);
+
+}
+
+
+.icono{
+
+    transition: width;
+    transition-duration: 500ms;
+    transition-timing-function: cubic-bezier();
+
+}
+
+.icono:hover{
+
+    border: 3px solid rgb(221, 24, 24);
+
+}
+
+
+.texto{
+
+    transition: width;
+    transition-duration: 900ms;
+    transition-timing-function: cubic-bezier();
+
+}
+
+.texto:hover{
+
+    color: $color-subtitulos;
+    font-size: 20px;
+    
+
+}
+
+.principal{
+
+    width: 60px;
+    transition: width;
+    transition-duration: 500ms;
+    transition-timing-function: cubic-bezier();
+
+}
+
+.principal:hover{
+
+    width: 100px;
+    
+
+}
+
+iframe{
+
+    transition: width;
+    transition-duration: 500ms;
+    transition-timing-function: cubic-bezier();
+
+}
+
+iframe:hover{
+
+    border: 3px solid rgb(221, 24, 24);
+}
+
+
+
+

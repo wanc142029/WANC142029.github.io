@@ -1,0 +1,103 @@
+
+
+.contenedor{
+
+    height:100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.8fr 3fr 2fr 2fr 2fr 0.8fr;
+    grid-gap: 3px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+    grid-template-areas: 'nav nav nav nav'
+                         'aside main main main'
+                         'aside contenido1 contenido2 contenido3'
+                         'aside contenido4 contenido5 contenido6'
+                         'aside footer footer footer';
+}
+
+
+.nav{
+    grid-area: nav;
+   
+}
+.aside{
+    grid-area: aside;
+   
+}
+.main{
+    grid-area: main;
+   
+}
+.contenido1{
+    display: flex;
+    grid-area: contenido1;
+    justify-content: center;
+    align-items: center;
+}
+.contenido2{
+    display: flex;
+    grid-area: contenido2;
+    justify-content: center;
+    
+}
+.contenido3{
+    display: flex;
+    grid-area: contenido3;
+    justify-content: center;
+}
+.contenido4{
+    display: flex;
+    justify-content: center;
+    grid-area: contenido4;
+}
+.contenido5{
+    display: flex;
+    justify-content: center;
+    grid-area: contenido5;
+}
+.contenido6{
+    display: flex;
+    justify-content: center;
+    grid-area: contenido6;
+
+}
+
+.footer{
+    grid-area: footer;
+    
+}
+
+.titulo{
+    justify-content: center;
+}
+
+.caja1{
+    display: flex;
+    justify-content: center;
+}
+
+.caja2{
+    display: flex;
+    justify-content: center;
+}
+
+.caja3{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+   
+    
+    
+    
+
+   
+    
+
+
+    
